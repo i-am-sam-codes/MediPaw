@@ -4,7 +4,23 @@
     box-sizing: border-box;
 }
 
+h1 {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
 
+.medication {
+    display: flex;
+    margin-top: 10px;
+    padding: 100px 100px;
+    justify-content: center;
+}
+.grid {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
 .container,
 #container {
     display: grid;
